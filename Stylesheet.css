@@ -1,0 +1,109 @@
+/* Universal Selector */
+* {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    color: #222;
+  }
+  
+  /* Header, Footer, and Div */
+  header, footer, div {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Header and Footer */
+  header, footer {
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* H1 */
+  h1 {
+    font-size: 40px;
+  }
+  
+  /* H2 */
+  h2 {
+    font-size: 32px;
+  }
+  
+  /* H3 */
+  h3 {
+    font-size: 24px;
+  }
+  
+  /* Grid Container */
+  #grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #ffc627;
+  }
+  
+  /* Unordered List in Navigation */
+  nav ul {
+    padding-left: 0;
+  }
+  
+  /* List Items in Navigation */
+  nav li {
+    list-style-type: none;
+  }
+  
+  /* Links in Navigation */
+  nav a {
+    display: block;
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    margin: 24px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Hover on Links in Navigation */
+  nav a:hover {
+    background-color: #fff;
+    color: #8c1d40;
+  }
+  
+  /* Main */
+  main {
+    background-color: #fff;
+    padding: 24px;
+  }
+  
+  /* Links in Main */
+  main a {
+    color: #8c1d40;
+    font-weight: bold;
+  }
+  
+  /* Hover on Links in Main */
+  main a:hover {
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 4px;
+  }
+  
+  /* Paragraphs and Quote */
+  p, q {
+    color: #444;
+  }
+  
